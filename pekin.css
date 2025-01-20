@@ -1,0 +1,58 @@
+body{
+    background-image: url(E4.jpg);
+    background-size: cover;
+    }
+   header > h1{
+    text-align: center;
+    color: black;
+    background-color: darkorange;
+    text-shadow: 2px 2px 4px #b98117;
+    }
+
+
+.border{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    background-color: orangered;
+    border-radius: 13px;
+    border: 4px;
+  }
+  .border:hover {
+    transition: 0.25s;
+  }
+.content{
+    display: flex;
+}
+img{
+    width: 800px;
+    height: 300px;
+}
+p{
+    color: black;
+    background-color: white;
+}
+img,p{
+    padding: 10px;
+}
+
+
+main > h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px #333 ;
+    color: #000;
+}
+h2{
+    text-shadow: 2px 2px 4px #333;
+    color:black;
+    text-align: center;
+}
+.img-bj2{
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+
+
+.footer-contact p{
+    padding: 5px 0;}

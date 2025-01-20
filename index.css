@@ -1,0 +1,103 @@
+
+body{
+    background-image: url(E4.jpg);
+    background-size: cover;
+    }
+header > h1{
+    text-align: center;
+    color: chocolate;
+    background-color:transparent;
+    text-shadow:unset;
+}
+h6{
+    color: black;
+    text-align: center;
+}
+.border{
+    margin: 10px;
+
+    padding: 5px;
+    width: 80%;
+    background-color: orangered;
+    border-radius: 13px;
+    border: 4px;
+}
+
+ul{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-top: 30px;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height: 80%;
+    border-right: 1px solid beige;
+    float: right;
+    box-sizing: border-box;
+    transition: 0.4s;
+    text-align: center;
+    overflow: hidden;
+}
+ul li:nth-child(1){
+    background: url(burgd.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(2){
+    background: url(dubaii1.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(3){
+    background: url(parisd.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(4){
+    background: url(catedralnotredamed.avif);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(5){
+    background: url(pekid.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+ul:hover li{
+    width: 10%;
+}
+ul li:hover{
+    width: 60%;
+}
+ul li .content {
+      position: absolute;
+      bottom: -100%;
+      left:0;
+      height:70%;
+      width: 100%;
+      padding: 20px;
+      background-color:white;
+      box-sizing: border-box;
+      color: black;
+      opacity: 1;
+}
+ul li .content h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul li .content p{
+    width: 70%;
+    margin: auto;
+    margin-top: 0px;
+}
+ul li:hover .content{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
